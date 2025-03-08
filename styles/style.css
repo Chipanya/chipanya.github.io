@@ -6,3 +6,24 @@
 body{
     font-family: myFont;
 }
+
+.header{
+    background-color: aqua;
+}
+
+.content{
+    background-color: red;
+}
+
+.wrapper {
+    display: grid;
+    
+    grid-template-areas: "header header header"
+                        "content";
+}
+
+.topnav a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+}
